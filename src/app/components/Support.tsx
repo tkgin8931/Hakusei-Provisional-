@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight, Section } from "lucide-react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export default function StudentSupport() {
   const [currentPage, setCurrentPage] = useState(0)

@@ -106,7 +106,7 @@ function HeroSection() {
 }
 
 export default function MainVisual() {
-    const [ isMenuOpen, setIsMenuOpen] = useState(false);
+    // const [ isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <div className="relative">
         <header className="absolute top-0 z-10 w-full">    
@@ -124,7 +124,7 @@ export default function MainVisual() {
                             <ContactButton iconUrl="/mail-icon.png" text="お問い合わせ" />
                     </ul>
                 </div>
-                <div className="md:hidden">
+                {/* <div className="md:hidden">
                     <MobileMenu />
                     { isMenuOpen  && (
                     <ul className="md:hidden flex flex-col items-center">
@@ -136,7 +136,7 @@ export default function MainVisual() {
                         <ContactButton iconUrl="/mail-icon.png" text="お問い合わせ" /> 
                     </ul>
                     )}
-                </div>  
+                </div>   */}
             </nav>
         </header>
         <HeroSection />
