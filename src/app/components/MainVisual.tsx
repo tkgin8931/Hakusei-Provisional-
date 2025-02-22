@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import { Menu, X } from "lucide-react";
+// import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
 function NavItem( {href,text} : { href: string, text: string }){
