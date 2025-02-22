@@ -14,22 +14,22 @@ function NavItem( {href,text} : { href: string, text: string }){
     )
 }
 
-function MobileMenu() {
-    const [ isMenuOpen, setIsMenuOpen] = useState(false);
-    return (
-        <button onClick={ () => setIsMenuOpen(!isMenuOpen) } >
-            { isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-    )
-}
+// function MobileMenu() {
+//     const [ isMenuOpen, setIsMenuOpen] = useState(false);
+//     return (
+//         <button onClick={ () => setIsMenuOpen(!isMenuOpen) } >
+//             { isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+//         </button>
+//     )
+// }
 
-function MobileNavItem( { href, text } : { href: string, text: string } ){
-    return (
-        <li className="flex flex-col space-y-4 items-center">
-            <a href={href} className="text-white font-semibold">{text}</a>
-        </li>
-    )
-}
+// function MobileNavItem( { href, text } : { href: string, text: string } ){
+//     return (
+//         <li className="flex flex-col space-y-4 items-center">
+//             <a href={href} className="text-white font-semibold">{text}</a>
+//         </li>
+//     )
+// }
 
 function ContactButton( { text , iconUrl } : { text: string, iconUrl: string} ){
     return (
